@@ -62,7 +62,7 @@
     "task_jobs_stopped": true,
     "workers_released": true,
     "remote_smoke_tree_removed": false,
-    "remote_smoke_tree_cleanup_note": "Not confirmed: cleanup jobs pt-qzh64a8c and pt-6f6qpwdp failed before producing readable worker logs.",
+    "remote_smoke_tree_cleanup_note": "Not confirmed: cleanup jobs pt-qzh64a8c and pt-6f6qpwdp failed before producing readable worker logs; exec to temporary worker pt-pzq3mn5x broke before command confirmation, and that worker was stopped.",
     "local_browser_profiles_removed": true,
     "original_model_targets_unchanged": true
   }
