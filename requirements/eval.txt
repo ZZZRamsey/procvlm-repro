@@ -1,0 +1,6 @@
+# Historical eval environment; see runtime_compat shim documentation.
+-r common.txt
+torch==2.10.0
+torchvision==0.25.0
+transformers==4.57.3
+vllm==0.18.1

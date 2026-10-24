@@ -1,0 +1,15 @@
+/.venv*/
+/runs/
+/logs/
+/validation/
+/models/
+/data/
+/assets/
+.env
+.env.*
+!.env.example
+__pycache__/
+*.pyc
+.pytest_cache/
+._*
+.DS_Store

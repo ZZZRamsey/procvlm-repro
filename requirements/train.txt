@@ -1,0 +1,7 @@
+# Python 3.10; select compatible CUDA wheels. FlashAttention built separately.
+-r common.txt
+torch==2.8.0
+torchvision==0.23.0
+transformers==4.57.3
+deepspeed==0.18.9
+ninja==1.13.0

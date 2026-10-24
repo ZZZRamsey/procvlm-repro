@@ -1,0 +1,405 @@
+{
+  "schema": "procvlm-source-manifest-v1",
+  "files": [
+    {
+      "path": "training/evqa/train/argument.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/train/argument.py",
+      "original_sha256": "7242d31709bfe502c14a587d4540b1396fdc1a49eb9158c1e2cc4e3c188a0b12",
+      "bytes": 2352,
+      "release_sha256": "7242d31709bfe502c14a587d4540b1396fdc1a49eb9158c1e2cc4e3c188a0b12",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/train/resume_alignment.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/train/resume_alignment.py",
+      "original_sha256": "a4b16fa98ae411a11abd3ba545bbda87a5816c0b44d1dedd34a63bc7b7c5abcd",
+      "bytes": 5654,
+      "release_sha256": "a4b16fa98ae411a11abd3ba545bbda87a5816c0b44d1dedd34a63bc7b7c5abcd",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/train/train_qwen.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/train/train_qwen.py",
+      "original_sha256": "f1b60b29f2ae71d7702410749e42c1ff90e344129d99a9ed5deb885208e35de1",
+      "bytes": 24285,
+      "release_sha256": "f1b60b29f2ae71d7702410749e42c1ff90e344129d99a9ed5deb885208e35de1",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/train/trainer.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/train/trainer.py",
+      "original_sha256": "da15b327770c2c6e5417c60f43e71bd0e7a918c04f18330885a709ac1bdd0985",
+      "bytes": 20886,
+      "release_sha256": "da15b327770c2c6e5417c60f43e71bd0e7a918c04f18330885a709ac1bdd0985",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/data/__init__.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/data/__init__.py",
+      "original_sha256": "2245c191df73f663c3fbbe7139e420ff500c397e75d59660bb94d4e0f9dc6866",
+      "bytes": 3016,
+      "release_sha256": "2245c191df73f663c3fbbe7139e420ff500c397e75d59660bb94d4e0f9dc6866",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/data/aoss_media.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/data/aoss_media.py",
+      "original_sha256": "e3d0a9535bd8e850557346cf4577f3c712f8644bf0866c3e2a4931d8d2863ad4",
+      "bytes": 4617,
+      "release_sha256": "15e7302cade337a5a4459c5d1df853f5b3f88d576bf0bdd5114049f25bdb4447",
+      "change": "infrastructure paths and S3 defaults made explicit; algorithms unchanged"
+    },
+    {
+      "path": "training/evqa/data/data_processor.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/data/data_processor.py",
+      "original_sha256": "ee0d4be7f5d5f53fea6b22cdfbe6a1faa50e32cbc05b6a589d604c9581fc317f",
+      "bytes": 37748,
+      "release_sha256": "ee0d4be7f5d5f53fea6b22cdfbe6a1faa50e32cbc05b6a589d604c9581fc317f",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/data/group_selection.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/data/group_selection.py",
+      "original_sha256": "733829b174b8631506d3b615a30826b135b44125bf87f8c6656c0038d54fe06c",
+      "bytes": 878,
+      "release_sha256": "733829b174b8631506d3b615a30826b135b44125bf87f8c6656c0038d54fe06c",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/data/rope2d.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/data/rope2d.py",
+      "original_sha256": "97c9f8f49a3a1f782f6dacea538e3032fadfe24e5b60a630d3ae62053250542c",
+      "bytes": 24684,
+      "release_sha256": "97c9f8f49a3a1f782f6dacea538e3032fadfe24e5b60a630d3ae62053250542c",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/model.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/model.py",
+      "original_sha256": "7b447c056db30a507283a2f45bdd80ec68aa604082b5f8dc299c2ec1c9b1e1e7",
+      "bytes": 64064,
+      "release_sha256": "7b447c056db30a507283a2f45bdd80ec68aa604082b5f8dc299c2ec1c9b1e1e7",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/model_c51.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/model_c51.py",
+      "original_sha256": "6c314f4d89597c9157b9328a538583c03a22cace2735b2e198098d12b209404e",
+      "bytes": 48079,
+      "release_sha256": "6c314f4d89597c9157b9328a538583c03a22cace2735b2e198098d12b209404e",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/configs/finetune/ds_config_zero2.json",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "configs/finetune/ds_config_zero2.json",
+      "original_sha256": "715259dddb16a6f68b711d13b3f090a3a36a41fc1e1f39df26109e7a0a5ff980",
+      "bytes": 557,
+      "release_sha256": "715259dddb16a6f68b711d13b3f090a3a36a41fc1e1f39df26109e7a0a5ff980",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/configs/finetune/ds_config_zero2_offload.json",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "configs/finetune/ds_config_zero2_offload.json",
+      "original_sha256": "ead9afa0de5d43d4daa692cf5cdabf726d55d90a82b776eb1a8c2b102af95312",
+      "bytes": 863,
+      "release_sha256": "ead9afa0de5d43d4daa692cf5cdabf726d55d90a82b776eb1a8c2b102af95312",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/configs/finetune/ds_config_zero3.json",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "configs/finetune/ds_config_zero3.json",
+      "original_sha256": "8d25d1f104be517b09152d6398a7352a8db4956f956565ec2ed8af58feba7a81",
+      "bytes": 801,
+      "release_sha256": "8d25d1f104be517b09152d6398a7352a8db4956f956565ec2ed8af58feba7a81",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/configs/finetune/ds_config_zero3_offload.json",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "configs/finetune/ds_config_zero3_offload.json",
+      "original_sha256": "34c882805cb97e0a71a32e3f2fa69aa84bdeaf450c6070f836a9fbe6a270d3f9",
+      "bytes": 1485,
+      "release_sha256": "34c882805cb97e0a71a32e3f2fa69aa84bdeaf450c6070f836a9fbe6a270d3f9",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/scripts/procvlm_train_stage.sh",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "scripts/procvlm_train_stage.sh",
+      "original_sha256": "646d130985bc82c1b6ed70d4507e1a17a03846c77232d7122eeaff63a223f5e9",
+      "bytes": 3882,
+      "release_sha256": "72002a6e23d61cdc0bebcb11d03f4a436dde7ce657b06f3d8305e27e60c6d6ef",
+      "change": "infrastructure paths and S3 defaults made explicit; algorithms unchanged"
+    },
+    {
+      "path": "evaluation/evqa/eval/compute_metrics.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/eval/compute_metrics.py",
+      "original_sha256": "b471a2ca0f0cfedc187f21f03669f86d95f2ff3329b82d87be62726353213e3f",
+      "bytes": 19743,
+      "release_sha256": "b471a2ca0f0cfedc187f21f03669f86d95f2ff3329b82d87be62726353213e3f",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/eval/run_eval.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/eval/run_eval.py",
+      "original_sha256": "2eba1f8ed08961f69abb971c58582b0bf8ab83d8261500c0a10f552dc2373d55",
+      "bytes": 21647,
+      "release_sha256": "2eba1f8ed08961f69abb971c58582b0bf8ab83d8261500c0a10f552dc2373d55",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/eval/resume.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/eval/resume.py",
+      "original_sha256": "046d170df891395590ae89236201c819ea58ab1924bd3917afbf410b8108c2dd",
+      "bytes": 9460,
+      "release_sha256": "046d170df891395590ae89236201c819ea58ab1924bd3917afbf410b8108c2dd",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/eval/resume_eval.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/eval/resume_eval.py",
+      "original_sha256": "43f74a543b547f469f49f257c1904cd05ecbfcf8ae29b8f4d959baa875bf4e83",
+      "bytes": 7302,
+      "release_sha256": "43f74a543b547f469f49f257c1904cd05ecbfcf8ae29b8f4d959baa875bf4e83",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/model.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/model.py",
+      "original_sha256": "12d3cf7150783730a3b32860542a3374747fc08974913bdda0ceec7af0bc91e4",
+      "bytes": 65127,
+      "release_sha256": "12d3cf7150783730a3b32860542a3374747fc08974913bdda0ceec7af0bc91e4",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/model_c51.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/model_c51.py",
+      "original_sha256": "6c314f4d89597c9157b9328a538583c03a22cace2735b2e198098d12b209404e",
+      "bytes": 48079,
+      "release_sha256": "6c314f4d89597c9157b9328a538583c03a22cace2735b2e198098d12b209404e",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/data/__init__.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/data/__init__.py",
+      "original_sha256": "2245c191df73f663c3fbbe7139e420ff500c397e75d59660bb94d4e0f9dc6866",
+      "bytes": 3016,
+      "release_sha256": "2245c191df73f663c3fbbe7139e420ff500c397e75d59660bb94d4e0f9dc6866",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/data/aoss_media.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/data/aoss_media.py",
+      "original_sha256": "e3d0a9535bd8e850557346cf4577f3c712f8644bf0866c3e2a4931d8d2863ad4",
+      "bytes": 4617,
+      "release_sha256": "15e7302cade337a5a4459c5d1df853f5b3f88d576bf0bdd5114049f25bdb4447",
+      "change": "infrastructure paths and S3 defaults made explicit; algorithms unchanged"
+    },
+    {
+      "path": "evaluation/evqa/data/data_processor.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/data/data_processor.py",
+      "original_sha256": "ee0d4be7f5d5f53fea6b22cdfbe6a1faa50e32cbc05b6a589d604c9581fc317f",
+      "bytes": 37748,
+      "release_sha256": "ee0d4be7f5d5f53fea6b22cdfbe6a1faa50e32cbc05b6a589d604c9581fc317f",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/data/group_selection.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/data/group_selection.py",
+      "original_sha256": "733829b174b8631506d3b615a30826b135b44125bf87f8c6656c0038d54fe06c",
+      "bytes": 878,
+      "release_sha256": "733829b174b8631506d3b615a30826b135b44125bf87f8c6656c0038d54fe06c",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/evqa/data/rope2d.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "evqa/data/rope2d.py",
+      "original_sha256": "97c9f8f49a3a1f782f6dacea538e3032fadfe24e5b60a630d3ae62053250542c",
+      "bytes": 24684,
+      "release_sha256": "97c9f8f49a3a1f782f6dacea538e3032fadfe24e5b60a630d3ae62053250542c",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/core/models/qwenvl.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "core/models/qwenvl.py",
+      "original_sha256": "63010b9f1f78bb6b5c334d97cf0fb4367c4939a6092aba741a7b1418fc2ac730",
+      "bytes": 31351,
+      "release_sha256": "63010b9f1f78bb6b5c334d97cf0fb4367c4939a6092aba741a7b1418fc2ac730",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/core/backends/api.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "core/backends/api.py",
+      "original_sha256": "c4d2109a4474cd3c7bac14883ed00d3386b5df684789777366e81d53216fb13c",
+      "bytes": 13455,
+      "release_sha256": "c4d2109a4474cd3c7bac14883ed00d3386b5df684789777366e81d53216fb13c",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/core/backends/api_v2.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "core/backends/api_v2.py",
+      "original_sha256": "84051607d91f113f2d490334d4af073e3b16205e7a166b404398fcd30a24e4b0",
+      "bytes": 5084,
+      "release_sha256": "84051607d91f113f2d490334d4af073e3b16205e7a166b404398fcd30a24e4b0",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/core/backends/lmdeploy.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "core/backends/lmdeploy.py",
+      "original_sha256": "d12565498b0052ca17263086a99f6f83745d4fa32515b9b3ed7bfbe26a74fd2d",
+      "bytes": 4826,
+      "release_sha256": "d12565498b0052ca17263086a99f6f83745d4fa32515b9b3ed7bfbe26a74fd2d",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/core/backends/sglang.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "core/backends/sglang.py",
+      "original_sha256": "dfcd4a49cc7c2f4fe08774a05c5845b89c60c03d810bb451b77cd86e12930e64",
+      "bytes": 1072,
+      "release_sha256": "dfcd4a49cc7c2f4fe08774a05c5845b89c60c03d810bb451b77cd86e12930e64",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/core/backends/vllm.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "core/backends/vllm.py",
+      "original_sha256": "fb7f5cc5e3b63dad3ce49a69be9832ec74143fd4c47e141e7e8061a494533e78",
+      "bytes": 5876,
+      "release_sha256": "fb7f5cc5e3b63dad3ce49a69be9832ec74143fd4c47e141e7e8061a494533e78",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/core/utils/common.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "core/utils/common.py",
+      "original_sha256": "f536d426e675005791dbd238a772210a4969c29ba3065704cf1571a0ee2a16b2",
+      "bytes": 41111,
+      "release_sha256": "f536d426e675005791dbd238a772210a4969c29ba3065704cf1571a0ee2a16b2",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/runtime_compat/imagehash.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "runtime_compat/imagehash.py",
+      "original_sha256": "d36b54c86fd38ed400b42db5fed5afc845a297502aca2cfa42702d63059d2c1f",
+      "bytes": 884,
+      "release_sha256": "d36b54c86fd38ed400b42db5fed5afc845a297502aca2cfa42702d63059d2c1f",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/runtime_compat/jsonlines.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "runtime_compat/jsonlines.py",
+      "original_sha256": "d03606c0e7232d549e383a0f9953f5c6661bb904d70fca561cad38bcc075b11d",
+      "bytes": 1041,
+      "release_sha256": "d03606c0e7232d549e383a0f9953f5c6661bb904d70fca561cad38bcc075b11d",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/runtime_compat/sitecustomize.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "runtime_compat/sitecustomize.py",
+      "original_sha256": "f0b088821411b0fd6b3f1df4a7459cfc49c31e1c39018b9c9c9f27ddf7866840",
+      "bytes": 309,
+      "release_sha256": "f0b088821411b0fd6b3f1df4a7459cfc49c31e1c39018b9c9c9f27ddf7866840",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/scripts/procvlm_eval_entrypoint.sh",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "scripts/procvlm_eval_entrypoint.sh",
+      "original_sha256": "648b07ece37fd303f4fd6052d4388b09a25c34ccff07c5e00caee6694f11851e",
+      "bytes": 2347,
+      "release_sha256": "de36689b1b042638bef69111b0de0699efca425cf0c0dba1b14149179e60f6c7",
+      "change": "infrastructure paths and S3 defaults made explicit; algorithms unchanged"
+    },
+    {
+      "path": "evaluation/tests/test_eval_fixed_batch.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "tests/test_eval_fixed_batch.py",
+      "original_sha256": "3e4b35a48f1a66561830545d23f2fa347cd15fd76ed0c04b117074540be21986",
+      "bytes": 919,
+      "release_sha256": "3e4b35a48f1a66561830545d23f2fa347cd15fd76ed0c04b117074540be21986",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/tests/test_eval_resume.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "tests/test_eval_resume.py",
+      "original_sha256": "4d1a607f5cd93bea5d1337e184b7dc25482ba586dda7f3729d413345f9d0b2c6",
+      "bytes": 5896,
+      "release_sha256": "4d1a607f5cd93bea5d1337e184b7dc25482ba586dda7f3729d413345f9d0b2c6",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/tests/test_eval_resume_runner.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "tests/test_eval_resume_runner.py",
+      "original_sha256": "57a8d188466fcf6dd0b5b0200237e6c4581537ea0ab8cb6bbc5fd57a5d21a775",
+      "bytes": 9222,
+      "release_sha256": "57a8d188466fcf6dd0b5b0200237e6c4581537ea0ab8cb6bbc5fd57a5d21a775",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/tests/test_eval_visual_inputs.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "tests/test_eval_visual_inputs.py",
+      "original_sha256": "4fdb60888a80057cdc63fc7917b1e92a87a6108db33ed7578ddee00599bc0e9c",
+      "bytes": 3949,
+      "release_sha256": "4fdb60888a80057cdc63fc7917b1e92a87a6108db33ed7578ddee00599bc0e9c",
+      "change": "unchanged"
+    },
+    {
+      "path": "evaluation/tests/test_jsonlines_compat.py",
+      "source_snapshot": "aligned-evaluation-20261015",
+      "source_relative_path": "tests/test_jsonlines_compat.py",
+      "original_sha256": "7d3912a4b5b874ea7afb51f5b0a1b7c06534b04f66f3aef407a170bbc790d71f",
+      "bytes": 706,
+      "release_sha256": "7d3912a4b5b874ea7afb51f5b0a1b7c06534b04f66f3aef407a170bbc790d71f",
+      "change": "unchanged"
+    },
+    {
+      "path": "training/evqa/eval/compute_metrics.py",
+      "source_snapshot": "stage2-final-training-20261006",
+      "source_relative_path": "evqa/eval/compute_metrics.py",
+      "original_sha256": "b471a2ca0f0cfedc187f21f03669f86d95f2ff3329b82d87be62726353213e3f",
+      "bytes": 19743,
+      "release_sha256": "b471a2ca0f0cfedc187f21f03669f86d95f2ff3329b82d87be62726353213e3f",
+      "change": "unchanged"
+    }
+  ],
+  "excluded": [
+    "evaluation/core/utils/runner_utils.py: unrelated LeRobot utility, not in supported import chain"
+  ],
+  "note": "New public wrappers, tests and documentation are not archival source; Git commit identifies those files."
+}

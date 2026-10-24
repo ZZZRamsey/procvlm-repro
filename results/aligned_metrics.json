@@ -1,0 +1,296 @@
+{
+  "schema": "procvlm-aligned-metrics-v1",
+  "captured_at": "2026-10-15T13:35:22.701325+00:00",
+  "protocol": "original-vllm-20261015",
+  "historical_results": true,
+  "results": [
+    {
+      "model_id": "official",
+      "label": "官方 ProcVLM-2B",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.684931506849315,
+        "mMAE": 0.6042105263157894,
+        "MCC@95": 0.8598962448907276,
+        "CCC": 0.7454357144931052,
+        "EPR@50": 5.3806793904393935,
+        "VOC": 0.8004040092491518,
+        "KT": 0.6643398972254781
+      },
+      "metadata_digest": "b9fe04999e7d0114b4a470adc508f612e7c17f0fd9c218a1f06e3d9048a31426"
+    },
+    {
+      "model_id": "official",
+      "label": "官方 ProcVLM-2B",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5920852359208524,
+        "mMAE": 0.506426735218509,
+        "MCC@95": 0.8105120938768887,
+        "CCC": 0.6573749245026307,
+        "EPR@50": 5.544323995429232,
+        "VOC": 0.6868888688367879,
+        "KT": 0.5534235375432578
+      },
+      "metadata_digest": "e2b88aaad8b68ae96770d9a5d9c178b3da498d1e068069ffbc74daeba389e523"
+    },
+    {
+      "model_id": "full_s1_6284",
+      "label": "Full Stage1 · 6284",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.6943866943866944,
+        "mMAE": 0.5489021956087824,
+        "MCC@95": 0.8712845840416551,
+        "CCC": 0.728913574455414,
+        "EPR@50": 5.30016786369738,
+        "VOC": 0.763035716085387,
+        "KT": 0.6305625118138667
+      },
+      "metadata_digest": "729886b4d985063a9212e14dcc79bf54918cf9a31f65e5285b50f76cceabf6d5"
+    },
+    {
+      "model_id": "full_s1_6284",
+      "label": "Full Stage1 · 6284",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5992395437262358,
+        "mMAE": 0.45685279187817257,
+        "MCC@95": 0.803681673310985,
+        "CCC": 0.6003609675693748,
+        "EPR@50": 5.582713290411121,
+        "VOC": 0.6510010034444446,
+        "KT": 0.531839092802116
+      },
+      "metadata_digest": "32f32e02e6c5d402174a11027404448c2271aeb346a721c90dc6e4981915588c"
+    },
+    {
+      "model_id": "full_s2_6284_2724",
+      "label": "Full Stage2 · S1 6284",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.7200566973777462,
+        "mMAE": 0.5826771653543307,
+        "MCC@95": 0.8856402062024623,
+        "CCC": 0.787977930504659,
+        "EPR@50": 5.649148569525409,
+        "VOC": 0.8158009389484981,
+        "KT": 0.6910540049293692
+      },
+      "metadata_digest": "35d4d8ce0a7956709c8e5af222fdaf29ae22697df22d6ab55cb009056a5603cf"
+    },
+    {
+      "model_id": "full_s2_6284_2724",
+      "label": "Full Stage2 · S1 6284",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5963855421686747,
+        "mMAE": 0.48737373737373735,
+        "MCC@95": 0.8139574780335014,
+        "CCC": 0.6148152987655474,
+        "EPR@50": 5.84190745161844,
+        "VOC": 0.6388734086009139,
+        "KT": 0.5221087190473936
+      },
+      "metadata_digest": "2661d1cd75ec64fd6cf450e3576025574d5f8133638bb132e2cefe498d9dafbb"
+    },
+    {
+      "model_id": "full_s1_3600",
+      "label": "历史 Full Stage1 · 3600",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.7056396148555708,
+        "mMAE": 0.5614035087719298,
+        "MCC@95": 0.865244230967536,
+        "CCC": 0.6889188142660047,
+        "EPR@50": 5.265015926243711,
+        "VOC": 0.7339945429712041,
+        "KT": 0.6034333854135838
+      },
+      "metadata_digest": "9826fce7a1d872a440cac1dd66806b2a16a450f9d6efe679f4efb903e3d8b564"
+    },
+    {
+      "model_id": "full_s1_3600",
+      "label": "历史 Full Stage1 · 3600",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5908028059236166,
+        "mMAE": 0.41952506596306066,
+        "MCC@95": 0.7951075458245158,
+        "CCC": 0.6051720064416403,
+        "EPR@50": 5.491515223237204,
+        "VOC": 0.6675209766168168,
+        "KT": 0.5422080804671474
+      },
+      "metadata_digest": "047f52ef95673e9a5b205453228ab099d49d219eac570fd86e843fc1a0c3c16a"
+    },
+    {
+      "model_id": "full_s2_3600_2724",
+      "label": "历史 Full Stage2 · S1 3600",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.6608946608946609,
+        "mMAE": 0.5851528384279476,
+        "MCC@95": 0.8768115946142738,
+        "CCC": 0.7677435024478778,
+        "EPR@50": 5.397220795069575,
+        "VOC": 0.8027683794712858,
+        "KT": 0.6728315869824013
+      },
+      "metadata_digest": "48f56efbac876da0c2e666914e8219f5a774db2e702b3d4412f1453ac53054e7"
+    },
+    {
+      "model_id": "full_s2_3600_2724",
+      "label": "历史 Full Stage2 · S1 3600",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.6248062015503876,
+        "mMAE": 0.5161290322580645,
+        "MCC@95": 0.7940966599071226,
+        "CCC": 0.6182279389835718,
+        "EPR@50": 5.542060500671079,
+        "VOC": 0.6414370506101066,
+        "KT": 0.5218017462090113
+      },
+      "metadata_digest": "ed1bb13b2aa8822ae6c542b9dbfd7e8af2961a10d4509a9a57b6afe7a653475e"
+    },
+    {
+      "model_id": "subset5_s2",
+      "label": "5% Stage2",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5797317436661699,
+        "mMAE": 0.6375321336760925,
+        "MCC@95": 0.8390659685180898,
+        "CCC": 0.4899464866397063,
+        "EPR@50": 4.523198039957461,
+        "VOC": 0.5534951624337635,
+        "KT": 0.41854766846971286
+      },
+      "metadata_digest": "5f6094bacd285ceec6d4daa16339634e9e2a6408e79c9898a6e67fa341330fd3"
+    },
+    {
+      "model_id": "subset5_s2",
+      "label": "5% Stage2",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5255474452554745,
+        "mMAE": 0.3888888888888889,
+        "MCC@95": 0.7523403415887775,
+        "CCC": 0.526899467078025,
+        "EPR@50": 4.7388709928923625,
+        "VOC": 0.6004285544588578,
+        "KT": 0.4525803187639032
+      },
+      "metadata_digest": "6788de9157a3f7040408ee806075ccb844c734cfddfc7dc1251fcc51b09f9d78"
+    },
+    {
+      "model_id": "subset10_s2",
+      "label": "10% Stage2",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5950413223140496,
+        "mMAE": 0.5984848484848485,
+        "MCC@95": 0.7969009736370676,
+        "CCC": 0.5656441696015666,
+        "EPR@50": 4.82679682917533,
+        "VOC": 0.6430565599781801,
+        "KT": 0.5077803712669149
+      },
+      "metadata_digest": "95bccd2880d837194602270f58f560ec1e8ae84cac010645bac378c406442fe8"
+    },
+    {
+      "model_id": "subset10_s2",
+      "label": "10% Stage2",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5070842654735273,
+        "mMAE": 0.37058823529411766,
+        "MCC@95": 0.7929596610480374,
+        "CCC": 0.6019029993175681,
+        "EPR@50": 5.058859590609233,
+        "VOC": 0.6346889005088907,
+        "KT": 0.48427413615585274
+      },
+      "metadata_digest": "7b2aa7b26ec43e2d1e83d51c68e5bb9cac5fade28405f49a8ba69616911f85e9"
+    },
+    {
+      "model_id": "subset20_s2",
+      "label": "20% Stage2",
+      "dataset": "test_full",
+      "total": 18973,
+      "completed": 18973,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.6439716312056738,
+        "mMAE": 0.5484581497797357,
+        "MCC@95": 0.8281712108671596,
+        "CCC": 0.6434527318003226,
+        "EPR@50": 5.103263764690329,
+        "VOC": 0.7146424145413703,
+        "KT": 0.5797528145377411
+      },
+      "metadata_digest": "6dfb1e280624a9cc706f69c3220930c7125844703d735e36df61017b55eac788"
+    },
+    {
+      "model_id": "subset20_s2",
+      "label": "20% Stage2",
+      "dataset": "valid_full",
+      "total": 17578,
+      "completed": 17578,
+      "status": "complete",
+      "metrics": {
+        "BF1@5": 0.5425772418990203,
+        "mMAE": 0.3888888888888889,
+        "MCC@95": 0.7756880909672349,
+        "CCC": 0.6381626855891515,
+        "EPR@50": 5.234822381776494,
+        "VOC": 0.6744307494633807,
+        "KT": 0.5350419949179951
+      },
+      "metadata_digest": "faef87a201c2232003468349a34fd7455011acdb18fe4930909604ab955d049e"
+    }
+  ]
+}

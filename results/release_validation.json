@@ -1,0 +1,69 @@
+{
+  "status": "gpu_inference_validated_training_resume_unvalidated",
+  "checked_at": "2026-10-25T01:52:00+08:00",
+  "release_contracts": {
+    "passed": true,
+    "tests": 15,
+    "linux_and_macos": true
+  },
+  "evaluation_regressions": {
+    "passed": true,
+    "tests": 25
+  },
+  "entrypoint_help": {
+    "training": 0,
+    "evaluation": 0
+  },
+  "rescore": {
+    "passed": true,
+    "prediction_sets": 16,
+    "predictions": 292408,
+    "metric_values": 112,
+    "atol": 1e-12,
+    "rtol": 1e-10
+  },
+  "media_reading": {
+    "passed": true,
+    "cases": 6,
+    "frames": 25,
+    "exact_rgb_match": true
+  },
+  "gpu_inference": {
+    "passed": true,
+    "executed": true,
+    "job": "pt-f2ijfs26",
+    "pool": "gpu8",
+    "workers": 2,
+    "gpus_per_worker": 8,
+    "tp": 4,
+    "samples": 6,
+    "original_repeated": true,
+    "exact_text_and_input_match": true,
+    "reason": "Original inference repeated twice and release inference run once; all six fixed ID/OOD samples matched exactly."
+  },
+  "gpu_train_resume": {
+    "passed": null,
+    "executed": false,
+    "reason": "Not run in this release validation; no GPU training, checkpoint save or optimizer/RNG resume was performed."
+  },
+  "viewer": {
+    "http_links": true,
+    "split_filter_counts": [
+      8,
+      8,
+      16
+    ],
+    "desktop_render_reviewed": true,
+    "mobile_render_reviewed": true,
+    "mobile_width_px": 390
+  },
+  "published": false,
+  "cleanup": {
+    "task_jobs_stopped": true,
+    "workers_released": true,
+    "remote_smoke_tree_removed": false,
+    "remote_smoke_tree_cleanup_note": "Not confirmed: cleanup jobs pt-qzh64a8c and pt-6f6qpwdp failed before producing readable worker logs.",
+    "local_browser_profiles_removed": true,
+    "original_model_targets_unchanged": true
+  }
+}
