@@ -14,7 +14,7 @@ Status: **GPU inference validated; GPU training/save/resume not validated**. His
 | 16 prediction-set rescoring | Passed: all 292,408 predictions, ordered sample digests and 112 scores match original and stored metrics; [machine-readable report](../results/rescore_validation.json) |
 | GPU inference | Passed on SCO `gpu8`: 2 nodes × 8 A800, TP=4; original repeated twice and release once on 6 fixed ID/OOD samples; input digests, text and frame boundaries matched |
 | GPU train/save/resume | Not run: this release check did not mutate training outputs; full training still requires 16 GPUs, batch1/accum32 and unchanged LR horizons |
-| Public remote verification | Pending commit/push; owner/public remote and SSH identity confirmed |
+| Public remote verification | Published to `ZZZRamsey/procvlm-repro` on `main`; local and remote refs matched |
 
 ## Commands
 

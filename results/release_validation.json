@@ -57,7 +57,7 @@
     "mobile_render_reviewed": true,
     "mobile_width_px": 390
   },
-  "published": false,
+  "published": true,
   "cleanup": {
     "task_jobs_stopped": true,
     "workers_released": true,
